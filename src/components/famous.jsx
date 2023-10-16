@@ -17,7 +17,7 @@ const Famous = () => {
   ];
 
   return (
-    <section className='font-font mt-32 mx-16'>
+    <section className='font-font mt-32 mx-8'>
       <div className='mb-12'>
         <h1 className='text-3xl font-semibold text-text_color  flex lg:justify-start justify-center mx-auto mb-2'>Famous places</h1>
         <p className='font-normal text-lg text-text_color flex lg:justify-start justify-center lg:text-start text-center mx-auto'>

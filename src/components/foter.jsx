@@ -4,12 +4,12 @@ const foter = () => {
   return (
     <section className='border-2 border-t-text_color w-auto h-auto flex flex-col justify-center mx-auto mt-32'>
          <div className='flex flex-col gap-4 mt-8 justify-center mx-auto' >
-             <h1 className='text-text_color text-4xl font-semibold text-center'>Save your time!</h1>
-             <p className='text-text_color font-light text-md text-center '> Join us and dont mess any update</p>
+             <h1 className='text-text_color text-4xl font-semibold flex justify-center mx-auto text-center'>Save your time!</h1>
+             <p className='text-text_color font-light text-md flex justify-center mx-auto text-center '> Join us and dont mess any update</p>
              <input
               type='text'
               placeholder='Email'
-              className='px-2 py-2 w-[450px] text-md font-light text-text_color bg-body_color border border-text_color rounded-md'
+              className='px-2  py-2 lg:w-[450px] sm:w-[450px] w-[300px] text-md font-light text-text_color bg-body_color border border-text_color flex justify-center mx-auto rounded-md'
              />
          </div>
          <div className='flex flex-col justify-center mt-8'>

@@ -8,7 +8,7 @@ import smallImage4 from '../assets/babor.jpg'
 
 const Blog = () => {
   return (
-    <section className='font-font mt-32 mx-16'>
+    <section className='font-font mt-32 mx-8'>
       <div className='mb-12'>
         <h1 className='text-3xl font-semibold text-text_color  flex lg:justify-start justify-center mx-auto mb-2'>Our Blogs</h1>
         <p className='font-normal text-lg text-text_color flex lg:justify-start justify-center lg:text-start text-center  mx-auto'>
@@ -20,7 +20,7 @@ const Blog = () => {
           <div className='relative'>
             <img src={BlogImage} className='rounded-lg  cursor-pointer w-full  lg:h-[528px] h-[350px] object-cover' />
             <div className='absolute top-2 left-2 bg-body_color p-2 rounded'>
-              <span  className='text-text_color text-lg font-medium '>Blog Title</span>
+              <span  className='text-text_color text-sm font-medium '>Blog Title</span>
             </div>
             <div className='absolute lg:block hidden bottom-2  left-2  p-2 rounded'>
               <span  className='text-body_color text-lg font-medium '>
@@ -30,18 +30,18 @@ const Blog = () => {
             </div>
           </div>
         </div>
-        <div className='grid lg:grid-cols-1 grid-cols-2 gap-6'>
+        <div className='grid lg:grid-cols-1 grid-cols-1 gap-6'>
           <div>
             <div className='relative lg:border border-text_color rounded-lg'>
             <div className='flex flex-row gap-2'>
               <img src={smallImage1} className='rounded-lg inline-block lg:px-4 lg:py-3 cursor-pointer lg:w-[40%] w-full h-[160px] object-cover' />
               <div className='lg:flex lg:flex-col gap-2 hidden px-1 py-3'>
-                <h1 className='text-xl font-bold text-text_color '>Blog title</h1>
+                <h1 className='text-text_color text-sm font-medium '>Blog title</h1>
                 <p className='text-md font-light text-text_color '>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
               </div>
               </div>
               <div className=' lg:hidden block absolute top-2 left-2 bg-body_color p-2 rounded'>
-              <span  className='text-text_color text-lg font-medium '>Blog Title</span>
+              <span  className='text-text_color text-sm font-medium '>Blog Title</span>
             </div>
             </div>
           </div>
@@ -50,12 +50,12 @@ const Blog = () => {
                 <div className='flex flex-row gap-2'>
               <img src={smallImage2} className='rounded-lg inline-block lg:px-4 lg:py-3 cursor-pointer lg:w-[40%] w-full h-[160px] object-cover' />
               <div className='lg:flex lg:flex-col gap-2 hidden px-1 py-3'>
-                <h1 className='text-xl font-bold text-text_color '>Blog title</h1>
+                <h1 className='text-text_color text-sm font-semibold '>Blog title</h1>
                 <p className='text-md font-light text-text_color '>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
               </div>
               </div>
               <div className=' lg:hidden block absolute top-2 left-2 bg-body_color p-2 rounded'>
-              <span  className='text-text_color text-lg font-medium '>Blog Title</span>
+              <span  className='text-text_color text-sm font-medium '>Blog Title</span>
             </div>
             </div>
           </div> 
@@ -64,12 +64,12 @@ const Blog = () => {
             <div className='flex flex-row gap-2'>
               <img src={smallImage3} className='rounded-lg inline-block lg:px-4 lg:py-3 cursor-pointer lg:w-[40%] w-full h-[160px] object-cover' />
               <div className='lg:flex lg:flex-col gap-2 hidden px-1 py-3'>
-                <h1 className='text-xl font-bold text-text_color '>Blog title</h1>
+                <h1 className='text-text_color text-sm font-semibold '>Blog title</h1>
                 <p className='text-md font-light text-text_color '>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
               </div>
               </div>
               <div className=' lg:hidden block absolute top-2 left-2 bg-body_color p-2 rounded'>
-              <span  className='text-text_color text-lg font-medium '>Blog Title</span>
+              <span  className='text-text_color text-sm font-medium '>Blog Title</span>
             </div>
             </div>
           </div> 
@@ -77,7 +77,7 @@ const Blog = () => {
             <div className='relative lg:border border-text_color rounded-lg lg:hidden block'>
               <img src={smallImage4} className='rounded-lg lg:px-4 lg:py-3 cursor-pointer lg:w-[40%] w-full h-[160px] object-cover' />
               <div className=' lg:hidden block absolute top-2 left-2 bg-body_color p-2 rounded'>
-              <span  className='text-text_color text-lg font-medium '>Blog Title</span>
+              <span  className='text-text_color text-sm font-medium '>Blog Title</span>
             </div>
             </div>
           </div>

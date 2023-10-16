@@ -4,7 +4,7 @@ import Loc from '../assets/loc.jpg'
 import Button from './button'
 const promotions = () => {
   return (
-    <section className='mt-32 font-font mx-16 '>
+    <section className='mt-32 font-font mx-8 '>
         <div className='mb-12'>
          <h1 className='text-3xl font-semibold text-text_color  flex lg:justify-start justify-center mx-auto mb-2'>Promotions</h1>
          <p className='font-normal text-lg text-text_color flex lg:justify-start justify-center mx-auto '>"Travel promotions mean exciting savings on trips!"</p> 
